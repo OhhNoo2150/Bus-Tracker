@@ -55,7 +55,7 @@ function newMarker(bus, id) {
 
 // Update marker location
 function updateMarker(marker, bus) {
-    marker.setLngLat([bus['attributes']['longitude'], bus['attributes']['latitude']);
+    marker.setLngLat([bus['attributes']['longitude'], bus['attributes']['latitude']]);
 }
 
 // Get marker by bus label
