@@ -30,9 +30,7 @@ async function runTracker() {
 
 // Request bus data from MBTA
 async function getBusLocations() {
-    const url =
-        "https://api-v3.mbta.com/vehicles?filter[route]=1&include=trip";
-    const response = await fetch(url);
+    const response = await fetch("https://api-v3.mbta.com/vehicles?filter[route]=1&include=trip");
     const json = await response.json();
     return json.data;
 }
@@ -40,7 +38,7 @@ async function getBusLocations() {
 // Create new marker and push to array
 function newMarker(bus, id) {
     const marker = new mapboxgl.Marker()
-        .setLngLat([bus.attributes.longitude, bus.attributes.latitude])
+        .setLngLat([bus['attributes']['longitude'], bus['attributes']['latitude'])
         .setPopup(
             new mapboxgl.Popup({
                 closeButton: false,
@@ -49,19 +47,19 @@ function newMarker(bus, id) {
         )
         .addTo(map);
     const item = {
-        marker: marker,
-        id: id,
+        "marker": marker,
+        "id": id,
     };
     markers.push(item);
 }
 
 // Update marker location
 function updateMarker(marker, bus) {
-    marker.setLngLat([bus.attributes.longitude, bus.attributes.latitude]);
+    marker.setLngLat([bus['attributes']['longitude'], bus['attributes']['latitude']);
 }
 
 // Get marker by bus label
 function markerId(label) {
-    const result = markers.find((item) => item.id === label);
+    const result = markers.find((item) => item['id'] === label);
     return result;
 }
