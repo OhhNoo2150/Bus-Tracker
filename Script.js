@@ -38,7 +38,7 @@ async function getBusLocations() {
 // Create new marker and push to array
 function newMarker(bus, id) {
     const marker = new mapboxgl.Marker()
-        .setLngLat([bus['attributes']['longitude'], bus['attributes']['latitude'])
+        .setLngLat([bus['attributes']['longitude'], bus['attributes']['latitude']])
         .setPopup(
             new mapboxgl.Popup({
                 closeButton: false,
