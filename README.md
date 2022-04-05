@@ -11,43 +11,38 @@ upon visiting the site you should get a map of Boston, when you click the button
 ## Getting Started
 first thing you'll want to head over to www.mapbox.com sign up for an account and get an API key 
 
-### Dependencies (still editing)
+### Dependencies 
+it depends
+### Installing 
+you have a couple ways to get this up and running
+1. You can copy my code, create individual repositories like I did and set up github pages to access them (make sure that you use the naming convention of index.html or it won't load on the screen.)
+2. You can sign up for this bootcamp and they'll show you how to do it
+3. you're a programming wizard and can do this on your own cause you don't need a bootcamp you're that great.
+### Executing program 
+If you don't already have a github profile, you'll want to create one (i'm not sure where you're accessing this from if you don't already have one)
+create a repository 
+add the files
+index.html
+styles.css
+script.js 
+copy the files from my files into those files, add them to your repo, set up github pages and it will run it for you. 
+## Help 
+I'm a little too new to this to offer much help, double and triple check your code to ensure that you don't miss anything...these things are fickle and only work if it's all the way correct 
+## Authors 
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+MIT
+Daniel I Rivera
+@Boricua2150 (twitter)
+github.com/OhhNoo2150
 
-### Installing (still editing)
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+Alejandro Santiago
+github.com/CubanFireball81
 
-### Executing program (still editing)
+## Version History 
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
-
-## Help (still editing)
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
-
-## Authors (still editing)
-
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
-## Version History (still editing)
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
+no future releases anticipated 
+no further modifications anticipated 
 * 0.1
     * Initial Release
 
@@ -76,11 +71,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
-## Acknowledgments (still editing)
+## Acknowledgments 
 
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+I'd like to acknowledge Alex Santiago, he helped me figure out issues as to why it wouldn't run. 
